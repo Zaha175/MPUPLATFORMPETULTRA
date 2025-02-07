@@ -467,28 +467,7 @@
             iframe {
                 height: 300px;
             }
-           .button-small {
-            padding: 5px 10px;      /* Kleinere Innenabstände */
-           font-size: 0.8rem;      /* Kleinere Schriftgröße */
-           width: auto;            /* Automatische Breite (statt 90% oder max-width) */
-           margin: 5px;            /* Geringerer Außenabstand */
-            border-radius: 5px;     /* Optional: Kleinere Ecken */
-        }
-
-#cube-container {
-  position: absolute;
-  top: 2px;
-  left: 20px;
-  z-index: 5;
-  display: flex;
-  flex-direction: column; /* Wieder auf column setzen */
-  align-items: center;
-}
-
-#cube-container button {
-  margin-bottom: 0; /* Kein Abstand nach unten */
-  margin-top: 5px;  /* Abstand nach oben, damit der Button über dem Würfel erscheint */
-}
+            
         }
     </style>
 </head>
@@ -496,13 +475,7 @@
 <body>
 
     <header>PLATFORMA MPU ULTRA</header>
-     <div id="cube-container">
-        <button class="button button-small" onclick="window.open('https://zaha175.github.io/BILDPUZZLEPLATFORM/', '_blank')">
-            CUB <i class="fas fa-external-link-alt"></i>
-        </button>
-        <iframe src="https://zaha175.github.io/BILDPUZZLEPLATFORM/" style="width: 145px; height: 80px; border: none;"></iframe>
-    </div>
-    <button class="dark-mode-toggle" onclick="toggleDarkMode()">MOD ÎNTUNECAT</button>
+     <button class="dark-mode-toggle" onclick="toggleDarkMode()">MOD ÎNTUNECAT</button>
 
     <div id="chatbot-widget">
         <button id="chatbot-toggle">🤖 Pornire Chatbot</button>
